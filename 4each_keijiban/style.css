@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+img {
+    max-width: 100%;
+}
+p {
+    line-height: 2em;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+header .wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+header .logo {
+    width: 350px;
+    margin: 10px 5px;
+    float: left;
+}
+header .logo img {
+    width: 100%;
+}
+header .g-navi {
+    background: #000;
+    overflow: hidden;
+    clear: both;
+    padding: 10px 0 10px 70px;
+}
+header .g-navi ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+header .g-navi li {
+    float: left;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.main {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+}
+.main .left {
+    width: 70%;
+    float: left;
+}
+.main .left h2 {
+    font-size: 26px;
+    font-weight: bold;
+    border-left: 5px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 5px 0 0 5px;
+}
+
+#form-wrap {
+    margin: 0 10px;
+}
+
+#form-box, .comment-box {
+    background: #e8e5e5;
+    border: 2px solid #999;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+}
+
+select,input,textarea {
+    background: #fff;
+    -webkit-appearance: auto;
+    appearance: auto;
+    border: 1px solid #999;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#form-box input[type="submit"]{
+    color: #fff;
+    display: block;
+    background: #7d7d7d;
+    border-bottom: 3px solid #353535;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 0;
+}
+
+#form-box  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 3px solid red;
+}
+
+.comment-box h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #999;
+}
+.comment-box p {
+    font-size: 14px;
+}
+/*
+.comment-box p.handlename {
+    text-align: right;
+}
+*/
+.main .left .mv {
+    margin-bottom: 15px;
+}
+.contents-wrap {
+    background: #d3d3d3;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.contents-wrap .box {
+    width: 25%;
+    padding: 0 5px;
+    float: left;
+    text-align: center;
+}
+
+
+.main .right {
+    width: 26%;
+    float: right;
+}
+.side-navi h5 {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px dotted #000;
+    margin-bottom: 5px;
+}
+.side-navi li{
+    line-height: 2em;
+}
+.side-navi li ul li {
+    margin-left: 10px;
+}
+.side-navi li ul>li:last-child {
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
